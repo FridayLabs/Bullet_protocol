@@ -1,4 +1,3 @@
-*
-!*.proto
-!*.md
-!.gitignore
+*.py
+*.pyc
+__pycache__
