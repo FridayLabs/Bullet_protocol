@@ -6,5 +6,5 @@ git submodule update --init
 
 ### For python
 ```
-protoc --python_out=. protocol/*.proto
+find protocol -type f -name "*.proto" -exec protoc --python_out=. {} \;
 ```
