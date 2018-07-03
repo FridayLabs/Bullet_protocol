@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package Bullet;
+
+message Failure {
+    string Message = 1;
+}

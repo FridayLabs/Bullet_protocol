@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Bullet.Client;
+
+message Pong {
+    int32 ServerTime = 1;
+    int32 ClientTime = 2;
+}

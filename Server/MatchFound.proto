@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Bullet.Server;
+
+message MatchFound {
+    string GameServerIp = 1;
+    int32 GameServerPort = 2;
+}

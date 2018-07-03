@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-
-package Bullet;
-
-message PingClient {
-    int32 ServerTime = 1;
-}

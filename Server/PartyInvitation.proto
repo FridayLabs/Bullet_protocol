@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package Bullet.Server;
+
+message PartyInvitation {
+    repeated int32 UserId = 1;
+}

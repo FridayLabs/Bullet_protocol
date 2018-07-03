@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package Bullet.Client;
+
+message InviteToParty {
+    int32 UserId = 1;
+}
