@@ -3,5 +3,5 @@ syntax = "proto3";
 package Bullet.Server;
 
 message UserLeavesParty {
-    int32 UserId = 1;
+    string UserId = 1;
 }
